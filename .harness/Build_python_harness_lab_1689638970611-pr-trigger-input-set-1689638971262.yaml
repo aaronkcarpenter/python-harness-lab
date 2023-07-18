@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_python_harness_lab_1689638970611-pr-trigger-input-set
+  identifier: Build_python_harness_lab_1689638970611prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: aaron_carpenter_sandbox
+  pipeline:
+    identifier: Build_python_harness_lab_1689638970611
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
